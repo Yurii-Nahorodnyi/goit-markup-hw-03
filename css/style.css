@@ -1,0 +1,247 @@
+/* ===== body =======*/
+
+.body {
+  font-family: 'Roboto';
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* ===== header =======*/
+
+.header {
+  background-color: white;
+  border: 1px solid rgba(236, 236, 236, 1);
+}
+
+.header .logo {
+  font-family: 'Raleway:700';
+  font-size: 26px;
+  font-weight: 700;
+  font-style: normal;
+  color: var(--web);
+}
+
+.header .logo > span {
+  font-family: 'Oleo+Script:400';
+  font-size: 26px;
+  font-weight: 700;
+  font-style: normal;
+  color: black;
+}
+
+.header .nav a {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--menuNav);
+}
+
+.header .contacts a {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--email-tel);
+}
+
+.header .nav .current {
+  color: var(--email-hover);
+}
+
+.header .nav a:hover,
+.header .contacts .email:hover {
+  color: var(--email-hover);
+}
+
+.header-nav,
+.nav,
+.header-nav .contacts {
+  display: flex;
+}
+
+.header-nav {
+  justify-content: space-between;
+  align-items: center;
+
+  padding-top: 24px;
+}
+
+.nav > li {
+  padding-left: 50px;
+}
+
+.header-nav .contacts > li:last-child {
+  padding-left: 50px;
+}
+
+.header-nav .nav {
+  margin-right: 331px;
+}
+
+/* =======  MAIN  ========*/
+
+/* ======= Section 1 =====*/
+
+.section-1 .container {
+  padding-left: 250px;
+  padding-top: 200px;
+  padding-bottom: 280px;
+  padding-right: 250px;
+  text-align: center;
+}
+
+.section-1 .container > button {
+  margin-top: 30px;
+  width: 200px;
+  height: 50px;
+}
+
+.section-1 {
+  background-color: var(--back-footer);
+}
+
+.section-1 h1 {
+  font-size: 44px;
+  font-weight: 900;
+  color: white;
+  text-transform: uppercase;
+}
+
+.section-1 button {
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
+  background: var(--button-color);
+  width: 200px;
+  height: 50px;
+}
+
+/* ======= Section 2.1 ===*/
+.section-2-1 .container,
+.features {
+  display: flex;
+}
+
+.section-2-1 {
+  background-color: white;
+  padding-top: 94px;
+}
+
+.section-2-1 h3 {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--menuNav);
+}
+
+.section-2-1 p {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--email-tel);
+}
+
+/* ======= Section 2.2 ===*/
+
+.section-2-2 .container .work {
+  display: flex;
+}
+
+.section-2-2 {
+  background-color: white;
+  padding-top: 94px;
+}
+
+.section-2-2 h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--menuNav);
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.work > li:not(:last-child) {
+  padding-right: 30px;
+}
+
+.work > li {
+  padding-bottom: 94px;
+}
+
+/* ======= Section 3 ===*/
+
+.section-3 .container .team {
+  display: flex;
+}
+
+.section-3 {
+  background-color: var(--back-gray);
+  /* margin-top: 30px; */
+}
+
+.section-3 h2 {
+  font-weight: 700;
+  font-size: 36px;
+  color: var(--menuNav);
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 94px;
+}
+
+.section-3 h3 {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--menuNav);
+}
+
+.section-3 p {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--email-tel);
+  padding-top: 10px;
+}
+
+.under-img {
+  padding-top: 30px;
+  padding-bottom: 94px;
+  text-align: center;
+}
+
+.team > li:not(:last-child) {
+  padding-right: 30px;
+}
+
+/* =======  footer ========*/
+
+.footer {
+  background-color: var(--back-footer);
+  padding-top: 60px;
+}
+
+.footer .address {
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+  color: white;
+  margin-top: 20px;
+  padding-bottom: 60px;
+}
+
+.footer .container .logo {
+  font-family: 'Raleway:700';
+  font-weight: 700;
+  font-size: 26px;
+  color: var(--web);
+}
+
+.footer .container .logo > span {
+  font-family: 'Oleo+Script:400';
+  font-weight: 700;
+  font-size: 26px;
+  color: white;
+}
+
+.footer .contacts > li > a {
+  color: var(--email-tel-footer);
+  margin-top: 9px;
+}

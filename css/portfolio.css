@@ -1,0 +1,180 @@
+/* ===== body =======*/
+
+.body {
+  font-family: 'Roboto';
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* ===== header =======*/
+
+.header {
+  background-color: white;
+  border: 1px solid rgba(236, 236, 236, 1);
+}
+
+.header .logo {
+  font-family: 'Raleway:700';
+  font-size: 26px;
+  font-weight: 700;
+  font-style: normal;
+  color: var(--web);
+}
+
+.header .logo > span {
+  font-family: 'Oleo+Script:400';
+  font-size: 26px;
+  font-weight: 700;
+  font-style: normal;
+  color: black;
+}
+
+.header .nav a {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--menuNav);
+}
+
+.header .contacts a {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--email-tel);
+}
+
+.header .nav .current {
+  color: var(--email-hover);
+}
+
+.header .nav a:hover,
+.header .contacts .email:hover {
+  color: var(--email-hover);
+}
+
+.header-nav,
+.nav,
+.header-nav .contacts {
+  display: flex;
+}
+
+.header-nav {
+  justify-content: space-between;
+  align-items: center;
+
+  padding-top: 24px;
+}
+
+.nav > li {
+  padding-left: 50px;
+}
+
+.header-nav .contacts > li:last-child {
+  padding-left: 50px;
+}
+
+.header-nav .nav {
+  margin-right: 331px;
+}
+
+/* =======  MAIN  ========*/
+
+/* =======  filters ======*/
+
+.filters {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 94px;
+  padding-bottom: 34px;
+}
+
+.section .container .filters > li > button {
+  border-radius: 4px;
+  background-color: var(--back-gray);
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--menuNav);
+  justify-items: center;
+}
+
+.container .filters > li > button:hover {
+  background-color: var(--email-hover);
+  color: white;
+}
+
+.filters > li:not(:last-child) {
+  padding-right: 30px;
+}
+
+/* =======  images ========*/
+
+.card-set {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+  padding-bottom: 94px;
+}
+
+.item {
+  margin-left: 30px;
+  margin-top: 30px;
+  flex-basis: calc(100% / 3 - 30px);
+}
+
+.section .card-set h3 {
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--menuNav);
+}
+
+.section .card-set p {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--email-tel);
+  padding-top: 4px;
+}
+
+.under-img {
+  justify-content: flex-start;
+  padding: 20px 24px;
+}
+
+/* =======  footer ========*/
+
+.footer {
+  background-color: var(--back-footer);
+  padding-top: 60px;
+}
+
+.footer .address {
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+  color: white;
+  margin-top: 20px;
+  padding-bottom: 60px;
+}
+
+.footer .container .logo {
+  font-family: 'Raleway:700';
+  font-weight: 700;
+  font-size: 26px;
+  color: var(--web);
+}
+
+.footer .container .logo > span {
+  font-family: 'Oleo+Script:400';
+  font-weight: 700;
+  font-size: 26px;
+  color: white;
+}
+
+.footer .contacts > li > a {
+  color: var(--email-tel-footer);
+  margin-top: 9px;
+}
